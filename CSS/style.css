@@ -1,0 +1,124 @@
+ /* CSS Reset */
+ body {
+    margin: 0px;
+    padding: 0px;
+    background: url('../img/bg.jpg');
+    height: 450px;
+    color: beige;
+    font-family: 'Gideon Roman', cursive;
+}
+
+.left {
+    /* border: 2px solid cadetblue; */
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+
+.left img {
+    width: 65px;
+    display: block;
+    margin: auto;
+
+}
+
+.left h4 {
+    margin: 0px;
+    line-height: 20px;
+    color: #f5f5eed7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mid {
+    /* border: 2px solid royalblue; */
+    display: block;
+    width: 658px;
+    margin: auto;
+    top: 20px;
+    left: 91px;
+    position: absolute;
+    /* Why we use Position:: Realtive Here?
+    Ans: We want to move the div box from it's normal position. */
+}
+
+.right {
+    /* border: 2px solid palegreen; */
+    display: inline-block;
+    position: absolute;
+    right: 12px;
+    top: 22px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 16.5px;
+}
+
+.navbar li a {
+    padding: 3.5px 10px;
+    text-decoration: none;
+    color: rgb(247,242,242);;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: #000000;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 77px;
+
+}
+
+.btn {
+    margin: 4px 2px;
+    padding: 6px 4px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #161816dc;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Gideon Roman', cursive;
+}
+
+.btn:hover {
+    background-color: #2e302e;
+}
+
+.container {
+    border: 2px solid blanchedalmond;
+    margin: 167px 124px;
+    padding: 32px 27px;
+    border-radius: 12px;
+    width: 372px;
+    padding-top: 22.5px;
+}
+
+.container h3 {
+    text-align: center;
+    /* line-height: 4.6px; */
+    font-size: 22.5px;
+    color: rgba(243, 236, 233, 0.966);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.form-group input {
+    margin: 11px auto;
+    padding: 7px 7px;
+    width: 246px;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    border: 2px solid #262222;
+    border-radius: 12px;
+    font-family: 'Gideon Roman', cursive;
+    color: black;
+}
+
+.container button {
+    margin: auto;
+    display: block;
+    width: 259px;
+}
